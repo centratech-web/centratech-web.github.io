@@ -71,7 +71,7 @@ document.addEventListener('DOMContentLoaded', () => {
         document.querySelectorAll('.ref-card').forEach(card => {
             card.addEventListener('click', () => {
                 const category = card.getAttribute('data-ref');
-                modalContent.innerHTML = defaultData[category];
+                modalContent.innerHTML = defaultData[category] + '<p style="margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid rgba(0,0,0,0.05); text-align: center; color: var(--color-text-main);">For more details, <a href="index.html#contact" style="color: var(--color-accent); text-decoration: none; font-weight: 600;">contact us</a>.</p>';
                 modal.classList.add('active');
             });
         });
