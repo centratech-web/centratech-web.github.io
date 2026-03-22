@@ -59,7 +59,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 </ul>
             `,
             'other': `
-                <h3>Other Industry</h3>
+                <h3>Other Industries</h3>
                 <ul>
                     <li><strong>Types:</strong> Olive Oil, Pulp and paper mill, Sugar factory, Yeast fermentation, Gasification of coal, Pig farm, Tannery, Rendering plant, Landfill, Petrochemical, Coca-Cola</li>
                     <li><strong>Scale:</strong> Laboratory, Pilot plant testings and Full Scale</li>
