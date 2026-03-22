@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CENTRATECH - Industrial Projects & References</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-surface">
+
+    <nav class="navbar scrolled">
+        <div class="nav-container">
+            <a href="index.html" class="nav-logo">
+                <img src="assets/logo1.png" alt="Centratech Logo" onerror="this.src=''; this.alt='CENTRATECH';">
+            </a>
+            <ul class="nav-links">
+                <li><a href="index.html#about">About</a></li>
+                <li><a href="index.html#expertise">Expertise</a></li>
+                <li><a href="index.html#solutions">Solutions</a></li>
+                <li><a href="references.html" style="color: var(--color-accent)">References</a></li>
+                <li><a href="index.html#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div style="padding-top: 120px; min-height: 100vh;" class="container animate-on-scroll">
+        <h1 style="font-size: 3rem; margin-bottom: 1rem;">Industrial Projects</h1>
+        <p style="max-width: 600px;">Our track record covers a wide array of specialized industries with proven effectiveness in laboratory, pilot, and full-scale deployments.</p>
+
+        <div class="ref-grid">
+            <div class="ref-card" data-ref="pharma">
+                <img src="https://static.wixstatic.com/media/e3cb7b_bc257ba20f514bee94c253c2791a6d6c.png" alt="Pharmaceutical Industry Projects">
+                <div class="ref-overlay">
+                    <h3 class="ref-title">Pharmaceutical Industry</h3>
+                </div>
+            </div>
+
+            <div class="ref-card" data-ref="coke">
+                <img src="https://static.wixstatic.com/media/e3cb7b_ab7cd58e93c8409bace9dd09b2110442~mv2.png" alt="Coke Plants Projects">
+                <div class="ref-overlay">
+                    <h3 class="ref-title">Coke Plants</h3>
+                </div>
+            </div>
+
+            <div class="ref-card" data-ref="chem">
+                <img src="https://static.wixstatic.com/media/e3cb7b_ae13891450cd4bb0afa2a6c4de2007b7~mv2.jpg" alt="Chemical Industry Projects">
+                <div class="ref-overlay">
+                    <h3 class="ref-title">Chemical Industry</h3>
+                </div>
+            </div>
+
+            <div class="ref-card" data-ref="other">
+                <img src="https://static.wixstatic.com/media/e3cb7b_7266ee902b17432e83f44305948fdd84.jpg" alt="Other Industry Projects">
+                <div class="ref-overlay">
+                    <h3 class="ref-title">Other Industry</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- The Modal -->
+    <div class="modal-overlay" id="ref-modal">
+        <div class="modal-content">
+            <button class="modal-close">&times;</button>
+            <div class="modal-body">
+                <!-- Injected via scripts.js -->
+            </div>
+        </div>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
