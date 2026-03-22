@@ -100,10 +100,21 @@ section {
   align-items: center;
 }
 
+.nav-logo {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  text-decoration: none;
+}
+
 .nav-logo img {
   height: 40px;
   width: auto;
   transition: var(--transition-normal);
+}
+
+.nav-logo img.brand-name {
+  height: 22px;
 }
 
 .nav-links {
